@@ -1,0 +1,45 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.9f1 (7a790e367ab3) revision 8026382'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'es' Physical Memory: 7997 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker133
+-projectPath
+C:/Users/larda/Desktop/Cursos/Don-Pachi/Tetris
+-logFile
+Logs/AssetImportWorker133.log
+-srvPort
+50551
+Successfully changed project path to: C:/Users/larda/Desktop/Cursos/Don-Pachi/Tetris
+C:/Users/larda/Desktop/Cursos/Don-Pachi/Tetris
+Using Asset Import Pipeline V2.
+Assertion failed on expression: 'm_ErrorCode == MDB_MAP_RESIZED || !HasAbortingErrors()'
+
+received signal from system: SIGSEGV
+Stack trace:
+0x00007ff63d838f2c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff63d83f0c9 (Unity) StackWalker::ShowCallstack
+0x00007ff63e033e83 (Unity) GetStacktrace
+0x00007ff63d838610 (Unity) winutils::CrashHandler::DefaultSignalHandler
+0x00007ff63fbc012e (Unity) seh_filter_exe
+0x00007ff63fc88a6d (Unity) `__scrt_common_main_seh'::`1'::filt$0
+0x00007ff63fb8d008 (Unity) _C_specific_handler
+0x00007ffbd599217f (ntdll) _chkstk
+0x00007ffbd5941454 (ntdll) RtlRaiseException
+0x00007ffbd5990cae (ntdll) KiUserExceptionDispatcher
+0x00007ff63e15e26b (Unity) SourceAssetDBReadTxn::SourceAssetDBReadTxn
+0x00007ff63e12c506 (Unity) SyncAssetFoldersWithDB
+0x00007ff63e11b6dd (Unity) InitializeAssetDatabaseV2
+0x00007ff63e0b9865 (Unity) AssetDatabase::InitializeAssetDatabase
+0x00007ff63dc2cc00 (Unity) Application::InitializeProject
+0x00007ff63e03d527 (Unity) WinMain
+0x00007ff63fb6a842 (Unity) __scrt_common_main_seh
+0x00007ffbd39d7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffbd5942651 (ntdll) RtlUserThreadStart
+
